@@ -12,6 +12,7 @@ on:
   push:
     branches:
       - 'master'
+      - '7.6.3'
 
 concurrency:
   group: ${{ github.event_name == 'pull_request' 
